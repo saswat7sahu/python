@@ -9,10 +9,11 @@ class Employee:
         Employee.total_employee+=1
     
     def __str__(self) :
-        return"employee id is {} role {} and name is{}".format(self.id,self.role,self.name)
+        return "employee id is {} role {} and name is{}".format(self.id,self.role,self.name)
+    #destructor
     def __del__(self):
         Employee.total_employee-=1
-suresh=Employee(1,"pp","Dwvops") 
+suresh=Employee(1,"pp","Devops") 
 print(Employee.total_employee)
 print(suresh.id)
 print(str(suresh))

@@ -1,3 +1,7 @@
+#operator overloading
+#Operator overloading is a feature in some programming languages that allows developers
+#  to redefine the behavior of operators (such as +, -, *, etc.) for user-defined data types.
+#This is particularly useful in domains like mathematics, physics simulations, and game development, where such operations are frequent and natural to the problem domain.
 class ComplexNumber:
     def __init__(self, real, imag):
         self.real = real

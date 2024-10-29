@@ -1,8 +1,10 @@
-#list is a collection of elements that may be homogenous or heterogenous. 
+#list is a collection of elements that can be homogenous or heterogenous. 
 # Dynamic is size
 #it's a built in data type
 #list can use in stack ,queues,
 l=[1,2,4,"hi","hlo",True]
+for i in range(len(l)):
+    print(i)
 print(l[3])
 #slicing:  slicing is a powerful feature that allows you to extract a portion of a list.
 #list[start:stop:step]
@@ -29,4 +31,10 @@ l.insert(2,"world")
 #remove(): to remove a specific  element for list
 l.remove(True)
 #index() : return the index of element if it's exist.
-print(l.index(2))
+index=l.index(2)
+#pop(): delete the  of the element at a specific index.
+l.pop(index)
+#sorted(): print the sorted list
+print(sorted(m))
+#sort():  sort list
+m.sort()
