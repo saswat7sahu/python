@@ -3,6 +3,7 @@
 #it's a built in data type
 #list can use in stack ,queues,
 l=[1,2,4,"hi","hlo",True]
+print(len(l))
 for i in range(len(l)):
     print(i)
 print(l[3])
