@@ -8,7 +8,7 @@ def swap(a,x,y):
     temp=a[x]
     a[x]=a[y]
     a[y]=temp
-
+    
 l=[4,2,1,3]
 if __name__=="__main__":
     CyclicSort(l)

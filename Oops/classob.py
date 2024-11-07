@@ -17,5 +17,6 @@ class Person:
     def __str__(self):
         return ("name {},age {}".format(self.name,self.age))
 p1=Person("sunil",23)
+p1.name="suraj"
 print(p1)
 del p1
